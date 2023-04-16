@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.youtube-wrapper {
+    width: 320px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.youtube-wrapper .img-thumb {
+    width: 100%;
+    position: relative;
+}
+.youtube-wrapper .img-thumb img {
+    width: 100%;
+    border-radius: 13px;
+}
+.youtube-wrapper .img-thumb .time-thumb {
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    padding: 1px 5px;
+    border-radius: 4px;
+    background-color: #000000b5;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.youtube-wrapper .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.youtube-wrapper .desc {
+    font-size: 15px;
+    opacity: .75;
+}
